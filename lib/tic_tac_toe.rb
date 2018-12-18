@@ -105,7 +105,7 @@ class TicTacToe
 		if won?
 			combo = won?
 	    win_1 = combo[0]
-	    board[win_1]
+	    @board[win_1]
 		end
 	end
 end
