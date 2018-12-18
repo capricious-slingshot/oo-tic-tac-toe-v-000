@@ -187,6 +187,7 @@ describe './lib/tic_tac_toe.rb' do
       end
 
       it 'asks for input again after a failed validation' do
+binding.pry
         game = TicTacToe.new
         allow($stdout).to receive(:puts)
 
