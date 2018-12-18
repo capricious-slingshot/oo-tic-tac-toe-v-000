@@ -113,10 +113,8 @@ class TicTacToe
 	    turn
 	  end
 
-	  if winner == "X" || winner == "O"
-	    puts "Congratulations #{winner}!"
-	  else
-	    puts "Cat's Game!"
-	  end
+	  message = winner.nil? ? "Congratulations #{winner}!" : "Cat's Game!"
+	    puts message
+
   end
 end
