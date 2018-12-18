@@ -113,7 +113,7 @@ class TicTacToe
 	    turn
 	  end
 
-	  if winner.nil?
+	  if !winner.nil?
 	    puts "Congratulations #{winner}!"
 	  else
 	    puts "Cat's Game!"
