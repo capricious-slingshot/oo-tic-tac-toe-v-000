@@ -56,8 +56,8 @@ class TicTacToe
 	def turn
 		puts "Please place select a space 1 - 9"
 		input = gets.chomp.strip
-
 		index = input_to_index(input)
+
 		if !valid_move?(index)
 			puts "Invalid Move. Please place select a space 1 - 9"
 			gets.chomp.strip
