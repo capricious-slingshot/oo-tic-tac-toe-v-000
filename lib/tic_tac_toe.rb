@@ -49,6 +49,7 @@ class TicTacToe
 		if index != nil
 		  index.between?(0, 8)
 		end
+
 	end
 
 	def turn_count
@@ -66,10 +67,7 @@ class TicTacToe
 
 		if !valid_move?(index)
 			puts "invalid"
-			# input = gets.chomp.strip
-			# index = input_to_index(input)
       turn
-
 		else
       @board[index] = current_player
 		end
