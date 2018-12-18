@@ -33,7 +33,8 @@ class TicTacToe
 		@board[index] = char
 	end
 
-	def position_taken?
-    
+	def position_taken?(index)
+		!@board[index].strip.empty? && !@board[index] == nil
+
 	end
 end
