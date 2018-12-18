@@ -59,7 +59,7 @@ class TicTacToe
 		index = input_to_index(input)
 
 		if !valid_move?(index)
-			puts "Invalid Move."
+			puts "invalid"
 			# input = gets.chomp.strip
 			# index = input_to_index(input)
 			self.turn
