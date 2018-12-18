@@ -60,7 +60,7 @@ class TicTacToe
 
 		if !valid_move?(index)
 			puts "Invalid Move. Please place select a space 1 - 9"
-			gets.chomp.strip
+			input
 		else
       @board[index] = current_player
 		end
