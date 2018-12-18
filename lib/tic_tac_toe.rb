@@ -113,7 +113,7 @@ class TicTacToe
 	    turn
 	  end
 
-	  puts(winner.nil? ? "Congratulations #{winner}!" : "Cat's Game!")
+	  puts(!winner.nil? ? "Congratulations #{winner}!" : "Cat's Game!"
 	  # puts message
 
   end
