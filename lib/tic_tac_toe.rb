@@ -42,7 +42,7 @@ class TicTacToe
 	end
 
 	def valid_move?(index)
-    !position_taken?(index) && position_exzist?(index) 
+    !position_taken?(index) && position_exzist?(index)
 	end
 
 	def position_exzist?(index)
@@ -60,7 +60,6 @@ class TicTacToe
 	def turn
 		puts "Please place select a space 1 - 9"
 		input = gets.chomp.strip
-binding.pry
 		index = input_to_index(input)
 
 		if !valid_move?(index)
