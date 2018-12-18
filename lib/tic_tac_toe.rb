@@ -46,7 +46,9 @@ class TicTacToe
 	end
 
 	def position_exzist?(index)
-		index.between?(0, 8)
+		if index != nil
+		  index.between?(0, 8)
+		end
 	end
 
 	def turn_count
