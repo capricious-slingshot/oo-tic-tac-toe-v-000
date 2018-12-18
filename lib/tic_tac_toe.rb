@@ -100,4 +100,12 @@ class TicTacToe
 	def over?
 		draw? || won?
 	end
+
+	def winner
+		if won?
+			combo = won?(board)
+	    win_1 = combo[0]
+	    board[win_1]
+		end
+	end
 end
