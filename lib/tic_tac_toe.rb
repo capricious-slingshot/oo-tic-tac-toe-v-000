@@ -66,7 +66,7 @@ class TicTacToe
 		index = input_to_index(input)
 
 		if !valid_move?(index)
-			puts "invalid"
+			puts "Invalid Move!"
       turn
 		else
       @board[index] = current_player
