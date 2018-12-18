@@ -113,12 +113,6 @@ class TicTacToe
 	    turn
 	  end
 
-	  if winner == "X"
-	    puts "Congratulations X!"
-	  elsif winner == "O"
-	    puts "Congratulations O!"
-	  else
-	    puts "Cat's Game!"
-	  end
+	  winner == "X" || winner == "O" ? puts "Congratulations #{winner}!" : puts "Cat's Game!"
   end
 end
