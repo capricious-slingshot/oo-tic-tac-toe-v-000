@@ -60,9 +60,9 @@ class TicTacToe
 
 		if !valid_move?(index)
 			puts "invalid"
-			input = gets.chomp.strip
-			index = input_to_index(input)
-			# self.turn
+			# input = gets.chomp.strip
+			# index = input_to_index(input)
+			self.turn
 
 		else
       @board[index] = current_player
