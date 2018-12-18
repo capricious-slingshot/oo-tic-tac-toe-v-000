@@ -105,8 +105,6 @@ class TicTacToe
 		if won?
 	    player = won?.first
 	    @board[player]
-		else
-			nil
 		end
 	end
 
