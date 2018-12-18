@@ -90,6 +90,6 @@ class TicTacToe
 	end
 
 	def full?
-    !board.any? {|s| s.strip.empty? && s.nil?}
+    !@board.any? {|s| s.strip.empty? || s.nil?}
 	end
 end
