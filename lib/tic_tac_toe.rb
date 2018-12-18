@@ -1,3 +1,5 @@
+require 'pry'
+
 class TicTacToe
 	WIN_COMBINATIONS = [
 		[0, 1, 2],
@@ -56,6 +58,7 @@ class TicTacToe
 	def turn
 		puts "Please place select a space 1 - 9"
 		input = gets.chomp.strip
+
 		index = input_to_index(input)
 
 		if !valid_move?(index)
