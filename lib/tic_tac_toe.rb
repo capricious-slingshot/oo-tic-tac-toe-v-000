@@ -52,4 +52,9 @@ class TicTacToe
 	def current_player
 		turn_count.even? ? "X" : "O"
 	end
+
+	def turn
+		puts "Please select a space 1 - 9"
+		input = gets.chomp.strip
+	end
 end
