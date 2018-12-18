@@ -107,4 +107,18 @@ class TicTacToe
 	    @board[player]
 		end
 	end
+
+	def play
+  while !over?
+    turn
+  end
+
+  if winner == "X"
+    puts "Congratulations X!"
+  elsif winner(board) == "O"
+    puts "Congratulations O!"
+  else
+    puts "Cat's Game!"
+  end
+end
 end
