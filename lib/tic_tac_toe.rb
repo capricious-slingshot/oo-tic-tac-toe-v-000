@@ -92,4 +92,8 @@ class TicTacToe
 	def full?
     !@board.any? {|s| s.strip.empty? || s.nil?}
 	end
+
+	def draw?
+		!won && full
+	end
 end
