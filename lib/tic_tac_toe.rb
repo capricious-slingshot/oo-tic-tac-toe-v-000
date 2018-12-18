@@ -65,7 +65,7 @@ binding.pry
 			puts "invalid"
 			# input = gets.chomp.strip
 			# index = input_to_index(input)
-      self.turn
+      turn
 
 		else
       @board[index] = current_player
