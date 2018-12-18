@@ -26,6 +26,6 @@ class TicTacToe
 
 	def input_to_index(input)
 		input = input.to_i
-		unless input == 0 input - 1
+		input - 1 unless input == 0
 	end
 end
