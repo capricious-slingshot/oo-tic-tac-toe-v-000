@@ -62,7 +62,7 @@ class TicTacToe
 			puts "invalid"
 			# input = gets.chomp.strip
 			# index = input_to_index(input)
-			self.turn
+
 
 		else
       @board[index] = current_player
