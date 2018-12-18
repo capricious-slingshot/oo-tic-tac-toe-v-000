@@ -44,4 +44,8 @@ class TicTacToe
 	def position_exzist?(index)
 		index.between?(0, 8)
 	end
+
+	def turn_count
+		@board.select {|i| i.strip.empty? && !i.nil?}
+	end
 end
