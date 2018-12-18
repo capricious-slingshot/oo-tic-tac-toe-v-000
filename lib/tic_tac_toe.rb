@@ -103,8 +103,8 @@ class TicTacToe
 
 	def winner
 		if won?
-			combo = won?.first
-	    win_1 = combo[0]
+			# combo =
+	    win_1 = won?.first
 	    @board[win_1]
 		end
 	end
