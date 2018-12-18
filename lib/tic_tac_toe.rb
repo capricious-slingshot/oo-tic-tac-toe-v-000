@@ -28,4 +28,8 @@ class TicTacToe
 		input = input.to_i
 		input - 1 unless input == 0
 	end
+
+	def move(index, char)
+		@board[index] = char
+	end
 end
