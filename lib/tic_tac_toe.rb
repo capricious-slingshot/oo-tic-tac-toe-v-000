@@ -46,6 +46,6 @@ class TicTacToe
 	end
 
 	def turn_count
-		@board.select {|i| i.strip.empty? && !i.nil?}
+		@board.select {|i| i.strip.empty? && !i.nil?}.count
 	end
 end
