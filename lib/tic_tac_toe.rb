@@ -54,7 +54,7 @@ class TicTacToe
 	end
 
 	def turn
-		puts "Please place your #{current_player} in spaces 1 - 9"
+		puts "Please place select a space 1 - 9"
 		input = gets.chomp.strip
 
 		index = input_to_index(input)
