@@ -42,6 +42,6 @@ class TicTacToe
 	end
 
 	def position_exzist?(index)
-		index.between(0,8)
+		index.between?(0, 8)
 	end
 end
