@@ -106,7 +106,7 @@ class TicTacToe
 	    player = won?.first
 	    @board[player]
 		end
-		false
+		# false
 	end
 
 	def play
